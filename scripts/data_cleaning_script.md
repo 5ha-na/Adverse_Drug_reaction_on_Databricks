@@ -2,7 +2,7 @@
 import pyspark.sql.functions as F
 
 #Loading Raw Data: 
-adr_df = spark.table("john_snow_labs_adverse_drug_and_product_reaction.drug_and_product_reaction.adverse_reaction_with_preferred_term_and_system_organ_class_codes")
+adr_df = spark.table("adverse_reaction_with_preferred_term_and_system_organ_class_codes")
 
 # Cleaning Frequency, Gender and Age_Group columns:
 adr_df = adr_df\
