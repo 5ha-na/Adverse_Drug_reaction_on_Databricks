@@ -5,9 +5,9 @@ Adverse Drug reaction data is critical for drug safety monitoring yet its raw da
 
 ## Problem statement 
 Raw pharmaceutical safety data presents several analytical challenges: 
-1 . Messy text fields - Inconsistent capitalisation, extra spaces and varying formates for the same medical concepts 
+1. Messy text fields - Inconsistent capitalisation, extra spaces and varying formates for the same medical concepts
 2. Multiple representations - Adverse reaction terms appear with slashes (e.g Abdominal Discomfort / Stomach Discomfort) requiring exrtaction of standardise terms
-3. Verbose categorical values - Frequency, Gender and Age fields used long discriptive strings instead of standardised labels 
+3. Verbose categorical values - Frequency, Gender and Age fields used long discriptive strings instead of standardised labels
 4. Missing standard mappings - 
 
 ## Approach 
