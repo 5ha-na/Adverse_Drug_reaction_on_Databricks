@@ -29,12 +29,13 @@ soc_data = [
     (10041244, "Social circumstances", "Social"),
     (10042613, "Surgical and medical procedures", "Surgical"),
     (10047065, "Vascular disorders", "Vascular"),
-    (10021879, "Immune system disorders", "Immune System")
+    (10021879, "Immune system disorders", "Immune System"),
+    (0 , "Not Specified", "Other") #Null Value
 ]
 
 # 2. Define explicit schema to FORCE IntegerType
 schema = StructType([
-    StructField("MedDRA_SOC_Code", IntegerType(), False),
+    StructField("MedDRA_SOC_Code", IntegerType(), True),
     StructField("Official_SOC_Term", StringType(), True),
     StructField("SOC_Short_Name", StringType(), True)
 ])
