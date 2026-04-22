@@ -26,6 +26,5 @@ Raw pharmaceutical safety data presents several analytical challenges:
 Interactive dashboard with 6 visualisations
 
 ## Objectives 
---- Primary objective: Transform raw, unstructured pharmaceutical safety data into a clean, analysable format and build an interactive dashboard that enables drug safety signal detection and pattern identification.
-
-Secondary objective: Develop reusable SQL patterns (window functions, CTEs, conditional aggregation) and PySpark cleaning scripts applicable to other reference datasets beyond pharmacovigilance.  ----
+Primary objective: 
+* Transform raw, unstructured pharmaceutical safety data into a clean, analysable format and build an interactive dashboard that enables drug safety signal detection and pattern identification.
