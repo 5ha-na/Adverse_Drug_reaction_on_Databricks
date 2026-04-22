@@ -16,7 +16,7 @@ Raw pharmaceutical safety data presents several analytical challenges:
   
 **Analysis (SQL):** Built 8 SQL queries using CTEs, Window functions, conditional aggregation and percentage calculations
 
-**Visualisation:** Designed 6 v
+**Visualisation:** Designed 6 Databricks SQL Dashboards
 
 ## Outcome 
 - A clean production-ready table in Databricks containing standardised ADR data
